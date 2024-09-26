@@ -4,11 +4,18 @@
 #include "utilites.h"
 #include "Dmitrieva_product.h"
 #include "Dmitrieva_market.h"
+#include "Food.h"
 
 void add_products_to_market(Dmitrieva_market& market) {
 	Dmitrieva_product* product = new Dmitrieva_product;
 	product->add_product();
 	market.add_product(product);
+}
+
+void add_food_to_market(Dmitrieva_market& market) {
+	Food* food = new Food;
+	food->add_product();
+	market.add_product(food);
 }
 
 void print_products_at_market(Dmitrieva_market& market) {
@@ -74,10 +81,11 @@ void clear_products(Dmitrieva_market& market) {
 void print_menu() {
 	std::cout << "- - Выберите действие - -" << std::endl;
 	std::cout << "1. Добавить товар " << std::endl;
-	std::cout << "2. Показать товары " << std::endl;
-	std::cout << "3. Сохранить в файл" << std::endl;
-	std::cout << "4. Загрузить из файла " << std::endl;
-	std::cout << "5. Очистить список товаров " << std::endl;
+	std::cout << "2. Добавить продукт питания " << std::endl;
+	std::cout << "3. Показать товары " << std::endl;
+	std::cout << "4. Сохранить в файл" << std::endl;
+	std::cout << "5. Загрузить из файла " << std::endl;
+	std::cout << "6. Очистить список товаров " << std::endl;
 	std::cout << "0. Выйти" << std::endl;
 }
 
@@ -88,7 +96,7 @@ void menu() {
 	int choice;
 	do {
 		print_menu();
-		correct_enter(choice, 0, 5);
+		correct_enter(choice, 0, 6);
 		switch (choice) {
 		case 1:
 		{
@@ -97,20 +105,25 @@ void menu() {
 		}
 		case 2:
 		{
-			print_products_at_market(market);
+			add_food_to_market(market);
 			break;
 		}
 		case 3:
 		{
-			save_products_to_file(market);
+			print_products_at_market(market);
 			break;
 		}
 		case 4:
 		{
-			load_products_from_file(market);
+			save_products_to_file(market);
 			break;
 		}
 		case 5:
+		{
+			load_products_from_file(market);
+			break;
+		}
+		case 6:
 		{
 			clear_products(market);
 		}

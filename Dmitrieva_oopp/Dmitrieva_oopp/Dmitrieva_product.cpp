@@ -7,10 +7,10 @@ void Dmitrieva_product::add_product() {
 	std::cin >> std::ws;
 	std::getline(std::cin, _name);
 
-	std::cout << "Ââåäèòå ñòîèìîñòü îò 1.0 äî 10 000.0: " << std::endl;
+	std::cout << "Ââåäèòå ñòîèìîñòü îò 1.0 äî 10 000.0 (ğóá.): " << std::endl;
 	correct_enter<float>(_price, 1.0, 10000.0);
 
-	std::cout << "Ââåäèòå êîëè÷åñòâî îò 0 äî 100: " << std::endl;
+	std::cout << "Ââåäèòå êîëè÷åñòâî îò 0 äî 100 (øò.): " << std::endl;
 	correct_enter<int>(_amount, 0, 100);
 
 	std::cout << "Äîñòóïåí ëè òîâàğ äëÿ çàêàçà (0 - íåò, 1 - äà): " << std::endl;
@@ -18,10 +18,10 @@ void Dmitrieva_product::add_product() {
 
 }
 void Dmitrieva_product::export_product(std::ostream& stream, bool pretty) {
-	export_parameter(stream, _name, "ÍÀÇÂÀÍÈÅ:                                ", pretty);
-	export_parameter(stream, _price, "ÑÒÎÈÌÎÑÒÜ:                               ", pretty);
-	export_parameter(stream, _amount, "ÊÎËÈ×ÅÑÒÂÎ:                              ", pretty);
-	export_parameter(stream, _is_active, "ÄÎÑÒÓÏÅÍ ÄËß ÇÀÊÀÇÀ (0 - ÍÅÒ, 1 - ÄÀ):   ", pretty);
+	export_parameter(stream, _name, "ÍÀÇÂÀÍÈÅ:                                       ", pretty);
+	export_parameter(stream, _price,"ÑÒÎÈÌÎÑÒÜ (ĞÓÁ.):                               ", pretty);
+	export_parameter(stream, _amount ,"ÊÎËÈ×ÅÑÒÂÎ (ØÒ.):                               ", pretty);
+	export_parameter(stream, _is_active, "ÄÎÑÒÓÏÅÍ ÄËß ÇÀÊÀÇÀ (0 - ÍÅÒ, 1 - ÄÀ):          ", pretty);
 }
 bool Dmitrieva_product::read_product_from_file(std::ifstream& in) {
 	in.ignore(1000, '\n');

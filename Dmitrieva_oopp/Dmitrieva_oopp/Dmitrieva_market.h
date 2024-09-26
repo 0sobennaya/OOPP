@@ -7,10 +7,12 @@
 class Dmitrieva_market {
 private:
 	std::vector <Dmitrieva_product*> _products;
+	
+public:
+
 	~Dmitrieva_market() {
 		delete_data();
 	}
-public:
 	void add_product(Dmitrieva_product* product);
 	void export_products(std::ostream& out, bool pretty);
 	void delete_data();
