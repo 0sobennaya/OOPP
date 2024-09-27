@@ -7,13 +7,13 @@
 #include "Food.h"
 
 void add_products_to_market(Dmitrieva_market& market) {
-	Dmitrieva_product* product = new Dmitrieva_product;
+	std::shared_ptr<Dmitrieva_product> product = std::make_shared<Dmitrieva_product>();
 	product->add_product();
 	market.add_product(product);
 }
 
 void add_food_to_market(Dmitrieva_market& market) {
-	Food* food = new Food;
+	std::shared_ptr<Food> food = std::make_shared<Food>();
 	food->add_product();
 	market.add_product(food);
 }
