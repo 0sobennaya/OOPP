@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dmitrieva_market">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAQAAAAAAAAAAAAgAAAAIAAEIAAAAA=</HashCode>
+      <FileName>Dmitrieva_market.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dmitrieva_product">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAAQAAAAIAAAAAAAAQAAAABAAIAAAAA=</HashCode>
+      <FileName>Dmitrieva_product.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Food">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAQAAAAIAAAAAAAAAAQAAAAAIAAAAA=</HashCode>
+      <FileName>Food.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
