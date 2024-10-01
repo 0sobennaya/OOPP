@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <boost/serialization/access.hpp>
 
 class Dmitrieva_product {
 protected:
@@ -12,6 +13,15 @@ protected:
 public:
 	virtual void add_product();
 	virtual void export_product(std::ostream& stream, bool pretty);
-	bool read_product_from_file(std::ifstream& in);
 	
+private:
+	friend class boost::serialization::access;
+	template<class Archive>
+	void serialize(Archive& ar, const unsigned int version)
+	{
+		ar& _name;
+		ar& _price;
+		ar& _amount;
+		ar& _is_active;
+	}
 };

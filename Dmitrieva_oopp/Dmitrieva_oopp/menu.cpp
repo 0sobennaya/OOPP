@@ -4,16 +4,18 @@
 #include "utilites.h"
 #include "Dmitrieva_product.h"
 #include "Dmitrieva_market.h"
+#include <boost/serialization/shared_ptr.hpp>
+#include <boost/make_shared.hpp>
 #include "Food.h"
 
 void add_products_to_market(Dmitrieva_market& market) {
-	std::shared_ptr<Dmitrieva_product> product = std::make_shared<Dmitrieva_product>();
+	boost::shared_ptr<Dmitrieva_product> product = boost::make_shared<Dmitrieva_product>();
 	product->add_product();
 	market.add_product(product);
 }
 
 void add_food_to_market(Dmitrieva_market& market) {
-	std::shared_ptr<Food> food = std::make_shared<Food>();
+	boost::shared_ptr<Food> food = boost::make_shared<Food>();
 	food->add_product();
 	market.add_product(food);
 }
@@ -41,8 +43,7 @@ void save_products_to_file(Dmitrieva_market& market) {
 		std::ofstream out;
 		out.open(filename);
 
-		out << market.get_products().size() << std::endl;
-		market.export_products(out, false);
+		market.save_products(out);
 
 		out.close();
 		std::cout << "Данные успешно сохранены" << std::endl;
