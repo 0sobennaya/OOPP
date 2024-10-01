@@ -9,13 +9,13 @@
 #include "Food.h"
 
 void add_products_to_market(Dmitrieva_market& market) {
-	boost::shared_ptr<Dmitrieva_product> product = boost::make_shared<Dmitrieva_product>();
+	std::shared_ptr<Dmitrieva_product> product = std::make_shared<Dmitrieva_product>();
 	product->add_product();
 	market.add_product(product);
 }
 
 void add_food_to_market(Dmitrieva_market& market) {
-	boost::shared_ptr<Food> food = boost::make_shared<Food>();
+	std::shared_ptr<Food> food = std::make_shared<Food>();
 	food->add_product();
 	market.add_product(food);
 }
@@ -65,11 +65,12 @@ void load_products_from_file(Dmitrieva_market& market) {
 		std::ifstream in;
 		in.open(filename);
 
-		if (market.read_products_from_file(in)) {
+		if (in && market.read_products_from_file(in)) {
 			std::cout << "Данные успешно загружены" << std::endl;
 		}
 		else {
 			market.delete_data();
+			std::cout << "Error" << std::endl;
 		}
 		
 	}
