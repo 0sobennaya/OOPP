@@ -1,0 +1,26 @@
+# ninja log v5
+48	654	7525040761250604	Lab3Dmitrieva_autogen/timestamp	98806c8e19d16bdf
+48	654	7525040761250604	Lab3Dmitrieva_autogen/mocs_compilation.cpp	98806c8e19d16bdf
+48	654	7525040761250604	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Lab3Dmitrieva_autogen/timestamp	98806c8e19d16bdf
+48	654	7525040761250604	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Lab3Dmitrieva_autogen/mocs_compilation.cpp	98806c8e19d16bdf
+655	3522	7525040790508861	CMakeFiles/Lab3Dmitrieva.dir/Lab3Dmitrieva_autogen/mocs_compilation.cpp.obj	4f14af24e7497e1c
+661	3543	7525040790817328	CMakeFiles/Lab3Dmitrieva.dir/main.cpp.obj	cfea26607c1948ff
+4103	4433	7525040798847500	Lab3Dmitrieva.exe	2fe9f097a8e34e2f
+665	4103	7525040796355158	CMakeFiles/Lab3Dmitrieva.dir/mainwindow.cpp.obj	161dcadb33d4c9a8
+670	3323	7525040788494636	CMakeFiles/Lab3Dmitrieva.dir/Dmitrieva_market.cpp.obj	fe8744db59e76770
+675	1633	7525040771597805	CMakeFiles/Lab3Dmitrieva.dir/Dmitrieva_product.cpp.obj	86f96895017a5a3d
+681	2049	7525040775835259	CMakeFiles/Lab3Dmitrieva.dir/Food.cpp.obj	5db657952f4a0985
+39	860	7525048572523045	Lab3Dmitrieva_autogen/timestamp	98806c8e19d16bdf
+39	860	7525048572523045	Lab3Dmitrieva_autogen/mocs_compilation.cpp	98806c8e19d16bdf
+39	860	7525048572523045	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Lab3Dmitrieva_autogen/timestamp	98806c8e19d16bdf
+39	860	7525048572523045	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Lab3Dmitrieva_autogen/mocs_compilation.cpp	98806c8e19d16bdf
+873	5530	7525048620087410	CMakeFiles/Lab3Dmitrieva.dir/dmitrieva_widget.cpp.obj	1a2cd9fc463350cf
+862	5564	7525048620458394	CMakeFiles/Lab3Dmitrieva.dir/Lab3Dmitrieva_autogen/mocs_compilation.cpp.obj	4f14af24e7497e1c
+867	6127	7525048626048265	CMakeFiles/Lab3Dmitrieva.dir/mainwindow.cpp.obj	161dcadb33d4c9a8
+6127	6476	7525048628753872	Lab3Dmitrieva.exe	d1e1b5a3fd27f440
+49	336	7525053012157701	Lab3Dmitrieva_autogen/timestamp	98806c8e19d16bdf
+49	336	7525053012157701	Lab3Dmitrieva_autogen/mocs_compilation.cpp	98806c8e19d16bdf
+49	336	7525053012157701	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Lab3Dmitrieva_autogen/timestamp	98806c8e19d16bdf
+49	336	7525053012157701	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Lab3Dmitrieva_autogen/mocs_compilation.cpp	98806c8e19d16bdf
+342	5305	7525053107347401	CMakeFiles/Lab3Dmitrieva.dir/mainwindow.cpp.obj	161dcadb33d4c9a8
+5306	5730	7525053110463523	Lab3Dmitrieva.exe	d1e1b5a3fd27f440
