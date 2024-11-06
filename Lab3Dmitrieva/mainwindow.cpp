@@ -19,7 +19,7 @@ void MainWindow::on_Open_button_triggered()
 {
     filename = QFileDialog::getOpenFileName(this, tr("Открыть"), QDir::currentPath(), tr("Текстовый файл(*.txt)"));
     if (!filename.isEmpty())
-        ui->scroll_widget->update();
+        ui->scroll_widget->load(filename);
 }
 
 
