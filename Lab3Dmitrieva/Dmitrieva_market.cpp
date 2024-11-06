@@ -38,3 +38,7 @@ bool Dmitrieva_market::read_products_from_file(std::ifstream& in) {
 void Dmitrieva_market::delete_data() {
     _products.clear();
 }
+
+// void Dmitrieva_market::draw_vec(QPainter& painter, int x, int y, int w, int h){
+//     std::for_each(_products.begin(),_products.end(), bind(&Dmitrieva_product::draw, std::placeholders::_1,std::ref(painter), x, y, w, h));
+// }
