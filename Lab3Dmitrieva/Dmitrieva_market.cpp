@@ -11,7 +11,7 @@
 BOOST_CLASS_EXPORT(Dmitrieva_product)
 BOOST_CLASS_EXPORT(Food)
 
-std::vector<std::shared_ptr<Dmitrieva_product>> Dmitrieva_market::get_products() {
+std::vector<std::shared_ptr<Dmitrieva_product>> Dmitrieva_market::get_products() const{
 	return _products;
 }
 void Dmitrieva_market::save_products(std::ostream& out) {

@@ -7,6 +7,7 @@ class Food : public Dmitrieva_product {
 public:
     Food() = default;
     virtual ~Food() = default;
+    void draw(QPainter& painter, int x, int& y, std::vector<int> &table_sizes) override;
 protected:
 	int _caloric_content = -1;
 	bool _is_vegetarian = 0;

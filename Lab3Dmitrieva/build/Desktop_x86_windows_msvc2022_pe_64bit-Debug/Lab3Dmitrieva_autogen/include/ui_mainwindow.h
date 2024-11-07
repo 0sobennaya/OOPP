@@ -51,6 +51,8 @@ public:
         verticalLayout->setObjectName("verticalLayout");
         scrollArea = new QScrollArea(centralwidget);
         scrollArea->setObjectName("scrollArea");
+        scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarPolicy::ScrollBarAsNeeded);
+        scrollArea->setSizeAdjustPolicy(QAbstractScrollArea::SizeAdjustPolicy::AdjustToContents);
         scrollArea->setWidgetResizable(true);
         scroll_widget = new Dmitrieva_widget();
         scroll_widget->setObjectName("scroll_widget");

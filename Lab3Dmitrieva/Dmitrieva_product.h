@@ -11,7 +11,7 @@ public:
     float get_price();
     int get_amount();
     bool get_status();
-    void draw(QPainter& painter, int x, int& y, std::vector<int> &table_sizes);
+    virtual void draw(QPainter& painter, int x, int& y, std::vector<int> &table_sizes);
 protected:
 	std::string _name = "None";
 	float _price = -1.0;
