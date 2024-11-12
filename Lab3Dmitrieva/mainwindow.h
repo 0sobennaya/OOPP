@@ -21,6 +21,10 @@ public:
 private slots:
     void on_Open_button_triggered();
 
+    void on_Clear_button_triggered();
+
+    void on_Save_as_button_triggered();
+
 private:
     Ui::MainWindow *ui;
 };

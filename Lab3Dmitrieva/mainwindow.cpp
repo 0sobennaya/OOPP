@@ -24,3 +24,17 @@ void MainWindow::on_Open_button_triggered()
 
 
 
+
+void MainWindow::on_Clear_button_triggered()
+{
+    ui->scroll_widget->clean();
+}
+
+
+void MainWindow::on_Save_as_button_triggered()
+{
+    filename = QFileDialog::getSaveFileName(this, tr("Открыть"), QDir::currentPath(), tr("Текстовый файл(*.txt)"));
+    if (!filename.isEmpty())
+        ui->scroll_widget->save(filename);
+}
+

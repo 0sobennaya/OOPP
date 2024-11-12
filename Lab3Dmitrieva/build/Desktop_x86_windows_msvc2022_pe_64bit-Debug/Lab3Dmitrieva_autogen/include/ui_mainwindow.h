@@ -28,6 +28,8 @@ class Ui_MainWindow
 public:
     QAction *Open_button;
     QAction *Exit_button;
+    QAction *Clear_button;
+    QAction *Save_as_button;
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout;
     QScrollArea *scrollArea;
@@ -45,6 +47,10 @@ public:
         Open_button->setObjectName("Open_button");
         Exit_button = new QAction(MainWindow);
         Exit_button->setObjectName("Exit_button");
+        Clear_button = new QAction(MainWindow);
+        Clear_button->setObjectName("Clear_button");
+        Save_as_button = new QAction(MainWindow);
+        Save_as_button->setObjectName("Save_as_button");
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         verticalLayout = new QVBoxLayout(centralwidget);
@@ -75,6 +81,8 @@ public:
         menubar->addAction(menu->menuAction());
         menu->addAction(Open_button);
         menu->addAction(Exit_button);
+        menu->addAction(Clear_button);
+        menu->addAction(Save_as_button);
 
         retranslateUi(MainWindow);
         QObject::connect(Exit_button, &QAction::triggered, MainWindow, qOverload<>(&QMainWindow::close));
@@ -87,6 +95,8 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         Open_button->setText(QCoreApplication::translate("MainWindow", "\320\236\321\202\320\272\321\200\321\213\321\202\321\214", nullptr));
         Exit_button->setText(QCoreApplication::translate("MainWindow", "\320\222\321\213\320\271\321\202\320\270", nullptr));
+        Clear_button->setText(QCoreApplication::translate("MainWindow", "\320\236\321\207\320\270\321\201\321\202\320\270\321\202\321\214", nullptr));
+        Save_as_button->setText(QCoreApplication::translate("MainWindow", "\320\241\320\276\321\205\321\200\320\260\320\275\320\270\321\202\321\214 \320\272\320\260\320\272", nullptr));
         menu->setTitle(QCoreApplication::translate("MainWindow", "\320\244\320\260\320\271\320\273", nullptr));
     } // retranslateUi
 

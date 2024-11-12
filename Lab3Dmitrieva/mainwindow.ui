@@ -55,6 +55,8 @@
     </property>
     <addaction name="Open_button"/>
     <addaction name="Exit_button"/>
+    <addaction name="Clear_button"/>
+    <addaction name="Save_as_button"/>
    </widget>
    <addaction name="menu"/>
   </widget>
@@ -67,6 +69,16 @@
   <action name="Exit_button">
    <property name="text">
     <string>Выйти</string>
+   </property>
+  </action>
+  <action name="Clear_button">
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+  </action>
+  <action name="Save_as_button">
+   <property name="text">
+    <string>Сохранить как</string>
    </property>
   </action>
  </widget>

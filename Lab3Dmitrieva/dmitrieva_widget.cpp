@@ -93,3 +93,8 @@ void Dmitrieva_widget::load(QString& path){
 
 }
 
+void::Dmitrieva_widget::save(QString& path){
+    std::ofstream out(path.toStdString());
+    market.save_products(out);
+    update();
+}
