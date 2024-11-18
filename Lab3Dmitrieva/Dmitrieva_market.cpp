@@ -39,4 +39,15 @@ void Dmitrieva_market::delete_data() {
     _products.clear();
 }
 
+Dmitrieva_market &Dmitrieva_market::operator=(const Dmitrieva_market &other)
+{
+    if (this != &other) {
+        delete_data();
+
+        for (const auto& product : other._products)
+            _products.push_back(product->clone());
+    }
+    return *this;
+}
+
 

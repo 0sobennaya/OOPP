@@ -26,6 +26,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Dmitrieva_market.h Dmitrieva_product.h Food.h
         Dmitrieva_market.cpp Dmitrieva_product.cpp Food.cpp
         dmitrieva_widget.h dmitrieva_widget.cpp
+        dialog_dmitrieva.h dialog_dmitrieva.cpp dialog_dmitrieva.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Lab3Dmitrieva APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

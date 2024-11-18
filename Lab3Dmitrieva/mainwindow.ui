@@ -58,7 +58,14 @@
     <addaction name="Clear_button"/>
     <addaction name="Save_as_button"/>
    </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Редактировать</string>
+    </property>
+    <addaction name="Edit_button"/>
+   </widget>
    <addaction name="menu"/>
+   <addaction name="menu_2"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="Open_button">
@@ -79,6 +86,11 @@
   <action name="Save_as_button">
    <property name="text">
     <string>Сохранить как</string>
+   </property>
+  </action>
+  <action name="Edit_button">
+   <property name="text">
+    <string>Редактировать</string>
    </property>
   </action>
  </widget>

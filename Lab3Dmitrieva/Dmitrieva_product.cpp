@@ -29,3 +29,8 @@ void Dmitrieva_product::draw(QPainter& painter, int x, int& y, std::vector<int> 
     y += h;
 }
 
+std::shared_ptr<Dmitrieva_product> Dmitrieva_product::clone() const
+{
+    return std::make_shared<Dmitrieva_product>(*this);
+}
+

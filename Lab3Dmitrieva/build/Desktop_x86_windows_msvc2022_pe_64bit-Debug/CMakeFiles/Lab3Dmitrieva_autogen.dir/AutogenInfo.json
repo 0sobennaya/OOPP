@@ -293,6 +293,12 @@
 			null
 		],
 		[
+			"C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/dialog_dmitrieva.h",
+			"MU",
+			"EWIEGA46WW/moc_dialog_dmitrieva.cpp",
+			null
+		],
+		[
 			"C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/dmitrieva_widget.h",
 			"MU",
 			"EWIEGA46WW/moc_dmitrieva_widget.cpp",
@@ -372,6 +378,11 @@
 			null
 		],
 		[ "C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/Food.cpp", "MU", null ],
+		[
+			"C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/dialog_dmitrieva.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/dmitrieva_widget.cpp",
 			"MU",

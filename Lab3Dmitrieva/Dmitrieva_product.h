@@ -12,6 +12,7 @@ public:
     int get_amount();
     bool get_status();
     virtual void draw(QPainter& painter, int x, int& y, std::vector<int> &table_sizes);
+    virtual std::shared_ptr<Dmitrieva_product> clone() const;
 protected:
 	std::string _name = "None";
 	float _price = -1.0;

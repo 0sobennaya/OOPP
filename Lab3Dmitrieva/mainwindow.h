@@ -1,7 +1,10 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
+#include "dialog_dmitrieva.h"
 #include <QMainWindow>
+#include <sstream>
+#include <boost/archive/text_oarchive.hpp>
+#include <boost/archive/text_iarchive.hpp>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -24,6 +27,8 @@ private slots:
     void on_Clear_button_triggered();
 
     void on_Save_as_button_triggered();
+
+    void on_Edit_button_triggered();
 
 private:
     Ui::MainWindow *ui;

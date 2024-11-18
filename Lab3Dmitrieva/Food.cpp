@@ -12,3 +12,9 @@ void Food::draw(QPainter& painter, int x, int& y, std::vector<int> &table_sizes)
     y += h;
 
 }
+
+std::shared_ptr<Dmitrieva_product> Food::clone() const
+{
+    return std::make_shared<Food>(*this);
+}
+

@@ -14,5 +14,6 @@ public:
     std::vector <std::shared_ptr<Dmitrieva_product>> get_products() const;
 	bool read_products_from_file(std::ifstream& in);
     void delete_data();
-
+    // Переопределение операторов
+    Dmitrieva_market& operator=(const Dmitrieva_market& other);
 };

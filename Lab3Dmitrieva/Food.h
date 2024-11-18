@@ -8,6 +8,7 @@ public:
     Food() = default;
     virtual ~Food() = default;
     void draw(QPainter& painter, int x, int& y, std::vector<int> &table_sizes) override;
+    std::shared_ptr<Dmitrieva_product> clone() const override;
 protected:
 	int _caloric_content = -1;
 	bool _is_vegetarian = 0;
