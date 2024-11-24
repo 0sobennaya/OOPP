@@ -7,11 +7,18 @@ class Dmitrieva_product {
 public:
     Dmitrieva_product() = default;
     virtual ~Dmitrieva_product() = default;
+    //getters
     std::string get_name();
     float get_price();
     int get_amount();
     bool get_status();
+    //setters
+    void set_name(std::string name);
+    void set_price(float price);
+    void set_amount(int amount);
+    void set_status(bool status);
     virtual void draw(QPainter& painter, int x, int& y, std::vector<int> &table_sizes);
+    virtual void draw_in_cols(QPainter& painter);
     virtual std::shared_ptr<Dmitrieva_product> clone() const;
 protected:
 	std::string _name = "None";

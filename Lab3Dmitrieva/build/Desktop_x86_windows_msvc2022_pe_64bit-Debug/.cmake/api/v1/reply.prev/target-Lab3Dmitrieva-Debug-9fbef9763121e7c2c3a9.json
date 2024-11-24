@@ -275,7 +275,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
+					"fragment" : "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd"
 				},
 				{
 					"backtrace" : 14,
@@ -373,7 +373,7 @@
 					14,
 					14
 				],
-				"standard" : "17"
+				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
@@ -391,11 +391,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "Lab3Dmitrieva_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Lab3Dmitrieva_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Lab3Dmitrieva_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Lab3Dmitrieva::@6890427a1f51a3e7e1df",

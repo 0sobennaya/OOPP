@@ -3,6 +3,7 @@
 #include "Dmitrieva_market.h"
 #include <QDialog>
 
+
 namespace Ui {
 class Dialog_dmitrieva;
 }
@@ -15,11 +16,17 @@ public:
     explicit Dialog_dmitrieva(std::shared_ptr<Dmitrieva_market> market_ptr, QWidget *parent = nullptr);
     ~Dialog_dmitrieva();
     std::shared_ptr<Dmitrieva_market> market_ptr;
+    void paintEvent(QPaintEvent *event);
+
 
 private slots:
-    void on_pushButton_clicked();
+
 
     void on_listWidget_currentRowChanged(int currentRow);
+
+    void on_delete_button_clicked();
+
+    void on_add_button_clicked();
 
 private:
     Ui::Dialog_dmitrieva *ui;

@@ -76,13 +76,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 75,
+				"line" : 77,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 58,
+				"line" : 60,
 				"parent" : 0
 			},
 			{
@@ -264,7 +264,7 @@
 			{
 				"command" : 11,
 				"file" : 1,
-				"line" : 53,
+				"line" : 55,
 				"parent" : 0
 			}
 		]
@@ -275,7 +275,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
+					"fragment" : "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd"
 				},
 				{
 					"backtrace" : 14,
@@ -373,7 +373,7 @@
 					14,
 					14
 				],
-				"standard" : "17"
+				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
@@ -383,18 +383,20 @@
 				8,
 				9,
 				10,
-				12
+				12,
+				14,
+				17
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "Lab3Dmitrieva_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Lab3Dmitrieva_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Lab3Dmitrieva_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Lab3Dmitrieva::@6890427a1f51a3e7e1df",
@@ -505,7 +507,9 @@
 				8,
 				9,
 				10,
-				12
+				12,
+				14,
+				17
 			]
 		},
 		{
@@ -517,7 +521,11 @@
 				6,
 				7,
 				11,
-				13
+				13,
+				16,
+				19,
+				20,
+				21
 			]
 		},
 		{
@@ -525,14 +533,16 @@
 			"sourceIndexes" : 
 			[
 				4,
-				14
+				15,
+				18,
+				22
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				15
+				23
 			]
 		}
 	],
@@ -612,9 +622,53 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 4,
+			"path" : "dialog_dmitrieva.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dialog_dmitrieva.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dialog_dmitrieva.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "add_dialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "add_dialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "add_dialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Lab3Dmitrieva_autogen/include/ui_mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Lab3Dmitrieva_autogen/include/ui_dialog_dmitrieva.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Lab3Dmitrieva_autogen/include/ui_add_dialog.h",
 			"sourceGroupIndex" : 1
 		},
 		{

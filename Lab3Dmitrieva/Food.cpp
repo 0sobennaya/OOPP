@@ -18,3 +18,15 @@ std::shared_ptr<Dmitrieva_product> Food::clone() const
     return std::make_shared<Food>(*this);
 }
 
+void Food::draw_in_cols(QPainter& painter)
+{
+    QStringList fields = {QString::fromLocal8Bit(_name), QString::number(_price), QString::number(_amount), QString::number(_is_active), QString::number(_caloric_content),QString::number(_is_vegetarian)};
+    int x = 10;
+    int y = 70;
+    int h = 50;
+    for (int i = 0; i<6; ++i){
+        painter.drawText(x,y + i*h, fields[i]);
+
+    }
+
+}

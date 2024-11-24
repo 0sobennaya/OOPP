@@ -395,6 +395,8 @@ Lab3Dmitrieva_autogen/timestamp: \
 	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/Dmitrieva_product.h \
 	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/Food.cpp \
 	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/Food.h \
+	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.cpp \
+	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h \
 	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
@@ -747,6 +749,7 @@ Lab3Dmitrieva_autogen/timestamp: \
 	D:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows.cmake \
 	D:/QT/Tools/CMake_64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake \
+	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.ui \
 	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/dialog_dmitrieva.ui \
 	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/mainwindow.ui \
 	D:/QT/Tools/CMake_64/bin/cmake.exe

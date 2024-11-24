@@ -293,6 +293,12 @@
 			null
 		],
 		[
+			"C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h",
+			"MU",
+			"EWIEGA46WW/moc_add_dialog.cpp",
+			null
+		],
+		[
 			"C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/dialog_dmitrieva.h",
 			"MU",
 			"EWIEGA46WW/moc_dialog_dmitrieva.cpp",
@@ -378,6 +384,11 @@
 			null
 		],
 		[ "C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/Food.cpp", "MU", null ],
+		[
+			"C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/dialog_dmitrieva.cpp",
 			"MU",

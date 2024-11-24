@@ -34,7 +34,7 @@
    </property>
    <layout class="QGridLayout" name="gridLayout_menu">
     <item row="2" column="0">
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="delete_button">
       <property name="text">
        <string>Удалить</string>
       </property>
@@ -48,7 +48,7 @@
      </widget>
     </item>
     <item row="0" column="0">
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="add_button">
       <property name="text">
        <string>Добавить</string>
       </property>
@@ -84,7 +84,7 @@
     <rect>
      <x>10</x>
      <y>220</y>
-     <width>91</width>
+     <width>111</width>
      <height>131</height>
     </rect>
    </property>
@@ -117,47 +117,40 @@
       </property>
      </widget>
     </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="caloric_label">
+      <property name="text">
+       <string>Калорийность</string>
+      </property>
+     </widget>
+    </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="gridLayoutWidget_3">
+  <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>220</y>
-     <width>441</width>
-     <height>130</height>
+     <x>200</x>
+     <y>240</y>
+     <width>63</width>
+     <height>20</height>
     </rect>
    </property>
-   <layout class="QGridLayout" name="gridLayout_answers">
-    <item row="2" column="0">
-     <widget class="QLabel" name="amount_ans_label">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="0">
-     <widget class="QLabel" name="status_ans_label">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0">
-     <widget class="QLabel" name="name_ans_label">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="0">
-     <widget class="QLabel" name="price_ans_label">
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>280</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
   </widget>
  </widget>
  <resources/>
