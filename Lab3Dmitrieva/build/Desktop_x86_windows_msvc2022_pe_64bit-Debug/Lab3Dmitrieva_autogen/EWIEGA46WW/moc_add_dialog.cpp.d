@@ -4,6 +4,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc202
   C:/Users/79106/source/boost_1_86_0/boost/archive/detail/abi_suffix.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/archive/detail/auto_link_archive.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/archive/detail/decl.hpp \
+  C:/Users/79106/source/boost_1_86_0/boost/archive/detail/register_archive.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/assert.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/assert/source_location.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/config.hpp \
@@ -30,6 +31,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc202
   C:/Users/79106/source/boost_1_86_0/boost/detail/workaround.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/exception/exception.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/limits.hpp \
+  C:/Users/79106/source/boost_1_86_0/boost/mpl/and.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/mpl/apply_wrap.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/mpl/assert.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/mpl/aux_/adl_barrier.hpp \
@@ -105,6 +107,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc202
   C:/Users/79106/source/boost_1_86_0/boost/mpl/not.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/mpl/not_equal_to.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/mpl/numeric_cast.hpp \
+  C:/Users/79106/source/boost_1_86_0/boost/mpl/print.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/mpl/tag.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/mpl/void.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/mpl/void_fwd.hpp \
@@ -183,8 +186,10 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc202
   C:/Users/79106/source/boost_1_86_0/boost/preprocessor/variadic/limits/size_64.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/preprocessor/variadic/size.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/serialization/access.hpp \
+  C:/Users/79106/source/boost_1_86_0/boost/serialization/assume_abstract.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/serialization/base_object.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/serialization/config.hpp \
+  C:/Users/79106/source/boost_1_86_0/boost/serialization/export.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/serialization/extended_type_info.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/serialization/force_include.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/serialization/level.hpp \
@@ -195,6 +200,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc202
   C:/Users/79106/source/boost_1_86_0/boost/serialization/shared_ptr_helper.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/serialization/singleton.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/serialization/split_free.hpp \
+  C:/Users/79106/source/boost_1_86_0/boost/serialization/static_warning.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/serialization/strong_typedef.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/serialization/throw_exception.hpp \
   C:/Users/79106/source/boost_1_86_0/boost/serialization/tracking.hpp \
@@ -279,6 +285,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc202
   C:/Users/79106/source/boost_1_86_0/boost/version.hpp \
   C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/Dmitrieva_market.h \
   C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/Dmitrieva_product.h \
+  C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/Food.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/q20functional.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/q20memory.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/q20type_traits.h \
@@ -329,6 +336,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc202
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qlatin1stringview.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qline.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qlist.h \
+  D:/QT/6.7.3/msvc2022_64/include/QtCore/qlocale.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qlogging.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qmalloc.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qmap.h \
@@ -349,6 +357,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc202
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qprocessordetection.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qrect.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qrefcount.h \
+  D:/QT/6.7.3/msvc2022_64/include/QtCore/qregularexpression.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qscopedpointer.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qscopeguard.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qset.h \
@@ -396,6 +405,8 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc202
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qversiontagging.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qxptype_traits.h \
   D:/QT/6.7.3/msvc2022_64/include/QtCore/qyieldcpu.h \
+  D:/QT/6.7.3/msvc2022_64/include/QtGui/QDoubleValidator \
+  D:/QT/6.7.3/msvc2022_64/include/QtGui/QIntValidator \
   D:/QT/6.7.3/msvc2022_64/include/QtGui/QPainter \
   D:/QT/6.7.3/msvc2022_64/include/QtGui/qaction.h \
   D:/QT/6.7.3/msvc2022_64/include/QtGui/qbitmap.h \
@@ -423,6 +434,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc202
   D:/QT/6.7.3/msvc2022_64/include/QtGui/qtguiexports.h \
   D:/QT/6.7.3/msvc2022_64/include/QtGui/qtguiglobal.h \
   D:/QT/6.7.3/msvc2022_64/include/QtGui/qtransform.h \
+  D:/QT/6.7.3/msvc2022_64/include/QtGui/qvalidator.h \
   D:/QT/6.7.3/msvc2022_64/include/QtGui/qwindowdefs.h \
   D:/QT/6.7.3/msvc2022_64/include/QtGui/qwindowdefs_win.h \
   D:/QT/6.7.3/msvc2022_64/include/QtWidgets/QDialog \

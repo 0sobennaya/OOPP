@@ -40,27 +40,52 @@ Dialog_dmitrieva::~Dialog_dmitrieva()
 
 void Dialog_dmitrieva::on_listWidget_currentRowChanged(int currentRow)
 {
-   // ui->label->setText(QString::fromLocal8Bit((market_ptr->get_products())[currentRow]->get_name()));
-    if(currentRow < 0 || currentRow >=market_ptr->get_products().size())
+    if(currentRow < 0 || currentRow >=market_ptr->get_products().size()){
+        ui->write_name->setText("");
+        ui->write_price->setText("");
+        ui->write_amount->setText("");
+        ui->write_status->setText("");
+        ui->write_caloric->setText("");
+        ui->write_veget->setText("");
         return;
+    }
+    auto p = market_ptr->get_products()[currentRow];
+    auto check_type = std::dynamic_pointer_cast<Food>(p);
+    ui->write_name->setText(QString::fromLocal8Bit((market_ptr->get_products())[currentRow]->get_name()));
+    ui->write_price->setText(QString::number((market_ptr->get_products())[currentRow]->get_price()));
+    ui->write_amount->setText(QString::number((market_ptr->get_products())[currentRow]->get_amount()));
+    if (market_ptr->get_products()[currentRow]->get_status()){
+        ui->write_status->setText("Да");
+    }
+    else{
+        ui->write_status->setText("Нет");
+    }
 
-   // market_ptr->get_products()[currentRow]->draw_in_cols(painter);
-    //update();
-    //market_ptr->get_products_ref()[currentRow];
-    // auto p =market_ptr->get_products()[currentRow];
-    // auto check_type = std::dynamic_pointer_cast<Food>(p);
-    // ui->label_2->setText(QString::number(check_type!=nullptr));
-    // if(check_type){
-    //     ui->label->setText(QString::fromLocal8Bit((market_ptr->get_products())[currentRow]->get_name()));
-    // }
+    if(check_type){
+        ui->caloric_label->setText("Калорийность");
+        ui->veget_label->setText("Вегетарианский");
+        ui->write_caloric->setText(QString::number(check_type->get_caloric()));
+        if (check_type->get_vegetarian()){
+            ui->write_veget->setText("Да");
+        }
+        else{
+            ui->write_veget->setText("Нет");
+        }
 
-    // ui->name_ans_label->setText(QString::fromLocal8Bit((market_ptr->get_products())[currentRow]->get_name()));
-    // ui->price_ans_label->setText(QString::number((market_ptr->get_products())[currentRow]->get_price()));
-    // ui->amount_ans_label->setText(QString::number((market_ptr->get_products())[currentRow]->get_amount()));
-    // ui->status_ans_label->setText(QString::number((market_ptr->get_products())[currentRow]->get_status()));
-
-
+    }
+    else{
+        ui->caloric_label->setText("");
+        ui->veget_label->setText("");
+        ui->write_caloric->setText("");
+        ui->write_veget->setText("");
+    }
 }
+
+
+    //ui->write_caloric->setText(QString::number(market_ptr->get_products())[currentRow]))
+
+
+
 
 void Dialog_dmitrieva::on_delete_button_clicked()
 {
@@ -82,8 +107,21 @@ void Dialog_dmitrieva::on_delete_button_clicked()
 
 void Dialog_dmitrieva::on_add_button_clicked()
 {
-    Add_Dialog add_wid (market_ptr,this);
+    Add_Dialog add_wid (market_ptr, this);
+    if(add_wid.exec() == QDialog::Accepted){
+        market_ptr = add_wid.market_ptr;
+        ui->listWidget->addItem(QString::fromLocal8Bit(market_ptr->get_products()[market_ptr->get_products().size() - 1]->get_name()));
+        //ui->listWidget->addItem(product_to_string(market_ptr->get_products()[market_ptr->get_products().size() - 1]));
+    }
+}
+
+
+void Dialog_dmitrieva::on_edit_button_clicked()
+{
+    int currentRow = ui->listWidget->currentRow();
+    auto selected = market_ptr->get_products_ref()[currentRow];
+    Add_Dialog add_wid (selected ,this);
     add_wid.exec();
-    ui->listWidget->addItem(product_to_string(market_ptr->get_products()[market_ptr->get_products().size()]));
+
 }
 

@@ -10,6 +10,15 @@ public:
     void draw(QPainter& painter, int x, int& y, std::vector<int> &table_sizes) override;
     void draw_in_cols(QPainter& painter) override;
     std::shared_ptr<Dmitrieva_product> clone() const override;
+    int get_caloric();
+    bool get_vegetarian();
+    void set_caloric(int cal){
+        _caloric_content = cal;
+    }
+
+    void set_veget(bool veg){
+        _is_vegetarian = veg;
+    }
 protected:
 	int _caloric_content = -1;
 	bool _is_vegetarian = 0;

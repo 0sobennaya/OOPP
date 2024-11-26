@@ -16,7 +16,6 @@
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QScrollArea>
-#include <QtWidgets/QStatusBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 #include "dmitrieva_widget.h"
@@ -38,7 +37,6 @@ public:
     QMenuBar *menubar;
     QMenu *menu;
     QMenu *menu_2;
-    QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -66,7 +64,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scroll_widget = new Dmitrieva_widget();
         scroll_widget->setObjectName("scroll_widget");
-        scroll_widget->setGeometry(QRect(0, 0, 776, 525));
+        scroll_widget->setGeometry(QRect(0, 0, 776, 550));
         scrollArea->setWidget(scroll_widget);
 
         verticalLayout->addWidget(scrollArea);
@@ -80,9 +78,6 @@ public:
         menu_2 = new QMenu(menubar);
         menu_2->setObjectName("menu_2");
         MainWindow->setMenuBar(menubar);
-        statusbar = new QStatusBar(MainWindow);
-        statusbar->setObjectName("statusbar");
-        MainWindow->setStatusBar(statusbar);
 
         menubar->addAction(menu->menuAction());
         menubar->addAction(menu_2->menuAction());
@@ -100,7 +95,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "\320\224\320\274\320\270\321\202\321\200\320\270\320\265\320\262\320\260 \320\233\320\260\320\2614", nullptr));
         Open_button->setText(QCoreApplication::translate("MainWindow", "\320\236\321\202\320\272\321\200\321\213\321\202\321\214", nullptr));
         Exit_button->setText(QCoreApplication::translate("MainWindow", "\320\222\321\213\320\271\321\202\320\270", nullptr));
         Clear_button->setText(QCoreApplication::translate("MainWindow", "\320\236\321\207\320\270\321\201\321\202\320\270\321\202\321\214", nullptr));

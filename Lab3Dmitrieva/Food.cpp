@@ -30,3 +30,9 @@ void Food::draw_in_cols(QPainter& painter)
     }
 
 }
+int Food::get_caloric(){
+    return _caloric_content;
+}
+bool Food::get_vegetarian(){
+    return _is_vegetarian;
+}

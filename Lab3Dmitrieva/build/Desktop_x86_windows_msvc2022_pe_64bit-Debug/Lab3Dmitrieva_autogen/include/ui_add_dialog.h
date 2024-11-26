@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCheckBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QLabel>
@@ -34,10 +35,10 @@ public:
     QLabel *label_4;
     QWidget *gridLayoutWidget_2;
     QGridLayout *gridLayout_2;
-    QLineEdit *get_name;
     QLineEdit *get_price;
-    QLineEdit *get_status;
     QLineEdit *get_amount;
+    QLineEdit *get_name;
+    QCheckBox *get_status;
     QPushButton *add_prod_Button;
     QWidget *Add_food;
     QWidget *gridLayoutWidget_3;
@@ -50,13 +51,13 @@ public:
     QLabel *label_10;
     QWidget *gridLayoutWidget_4;
     QGridLayout *gridLayout_4;
-    QLineEdit *lineEdit_5;
-    QLineEdit *lineEdit_9;
-    QLineEdit *lineEdit_7;
-    QLineEdit *lineEdit_8;
-    QLineEdit *lineEdit_6;
-    QLineEdit *lineEdit_10;
-    QPushButton *pushButton_2;
+    QLineEdit *amount_field;
+    QCheckBox *status_field;
+    QLineEdit *name_field;
+    QLineEdit *caloric_field;
+    QLineEdit *price_field;
+    QCheckBox *veget_field;
+    QPushButton *add_food_btn;
 
     void setupUi(QDialog *Add_Dialog)
     {
@@ -100,29 +101,29 @@ public:
         gridLayout_2 = new QGridLayout(gridLayoutWidget_2);
         gridLayout_2->setObjectName("gridLayout_2");
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
-        get_name = new QLineEdit(gridLayoutWidget_2);
-        get_name->setObjectName("get_name");
-
-        gridLayout_2->addWidget(get_name, 0, 0, 1, 1);
-
         get_price = new QLineEdit(gridLayoutWidget_2);
         get_price->setObjectName("get_price");
 
         gridLayout_2->addWidget(get_price, 1, 0, 1, 1);
-
-        get_status = new QLineEdit(gridLayoutWidget_2);
-        get_status->setObjectName("get_status");
-
-        gridLayout_2->addWidget(get_status, 3, 0, 1, 1);
 
         get_amount = new QLineEdit(gridLayoutWidget_2);
         get_amount->setObjectName("get_amount");
 
         gridLayout_2->addWidget(get_amount, 2, 0, 1, 1);
 
+        get_name = new QLineEdit(gridLayoutWidget_2);
+        get_name->setObjectName("get_name");
+
+        gridLayout_2->addWidget(get_name, 0, 0, 1, 1);
+
+        get_status = new QCheckBox(gridLayoutWidget_2);
+        get_status->setObjectName("get_status");
+
+        gridLayout_2->addWidget(get_status, 3, 0, 1, 1);
+
         add_prod_Button = new QPushButton(Add_product);
         add_prod_Button->setObjectName("add_prod_Button");
-        add_prod_Button->setGeometry(QRect(170, 300, 151, 41));
+        add_prod_Button->setGeometry(QRect(170, 290, 151, 41));
         tabWidget->addTab(Add_product, QString());
         Add_food = new QWidget();
         Add_food->setObjectName("Add_food");
@@ -168,44 +169,45 @@ public:
         gridLayout_4 = new QGridLayout(gridLayoutWidget_4);
         gridLayout_4->setObjectName("gridLayout_4");
         gridLayout_4->setContentsMargins(0, 0, 0, 0);
-        lineEdit_5 = new QLineEdit(gridLayoutWidget_4);
-        lineEdit_5->setObjectName("lineEdit_5");
+        amount_field = new QLineEdit(gridLayoutWidget_4);
+        amount_field->setObjectName("amount_field");
 
-        gridLayout_4->addWidget(lineEdit_5, 0, 0, 1, 1);
+        gridLayout_4->addWidget(amount_field, 2, 0, 1, 1);
 
-        lineEdit_9 = new QLineEdit(gridLayoutWidget_4);
-        lineEdit_9->setObjectName("lineEdit_9");
+        status_field = new QCheckBox(gridLayoutWidget_4);
+        status_field->setObjectName("status_field");
 
-        gridLayout_4->addWidget(lineEdit_9, 4, 0, 1, 1);
+        gridLayout_4->addWidget(status_field, 3, 0, 1, 1);
 
-        lineEdit_7 = new QLineEdit(gridLayoutWidget_4);
-        lineEdit_7->setObjectName("lineEdit_7");
+        name_field = new QLineEdit(gridLayoutWidget_4);
+        name_field->setObjectName("name_field");
 
-        gridLayout_4->addWidget(lineEdit_7, 3, 0, 1, 1);
+        gridLayout_4->addWidget(name_field, 0, 0, 1, 1);
 
-        lineEdit_8 = new QLineEdit(gridLayoutWidget_4);
-        lineEdit_8->setObjectName("lineEdit_8");
+        caloric_field = new QLineEdit(gridLayoutWidget_4);
+        caloric_field->setObjectName("caloric_field");
 
-        gridLayout_4->addWidget(lineEdit_8, 1, 0, 1, 1);
+        gridLayout_4->addWidget(caloric_field, 4, 0, 1, 1);
 
-        lineEdit_6 = new QLineEdit(gridLayoutWidget_4);
-        lineEdit_6->setObjectName("lineEdit_6");
+        price_field = new QLineEdit(gridLayoutWidget_4);
+        price_field->setObjectName("price_field");
 
-        gridLayout_4->addWidget(lineEdit_6, 5, 0, 1, 1);
+        gridLayout_4->addWidget(price_field, 1, 0, 1, 1);
 
-        lineEdit_10 = new QLineEdit(gridLayoutWidget_4);
-        lineEdit_10->setObjectName("lineEdit_10");
+        veget_field = new QCheckBox(gridLayoutWidget_4);
+        veget_field->setObjectName("veget_field");
 
-        gridLayout_4->addWidget(lineEdit_10, 2, 0, 1, 1);
+        gridLayout_4->addWidget(veget_field, 5, 0, 1, 1);
 
-        pushButton_2 = new QPushButton(Add_food);
-        pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(170, 280, 131, 41));
+        add_food_btn = new QPushButton(Add_food);
+        add_food_btn->setObjectName("add_food_btn");
+        add_food_btn->setGeometry(QRect(180, 280, 131, 41));
+        add_food_btn->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
         tabWidget->addTab(Add_food, QString());
 
         retranslateUi(Add_Dialog);
 
-        tabWidget->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(Add_Dialog);
@@ -213,11 +215,13 @@ public:
 
     void retranslateUi(QDialog *Add_Dialog)
     {
-        Add_Dialog->setWindowTitle(QCoreApplication::translate("Add_Dialog", "Dialog", nullptr));
+        Add_Dialog->setWindowTitle(QCoreApplication::translate("Add_Dialog", "\320\224\320\276\320\261\320\260\320\262\320\273\320\265\320\275\320\270\320\265 \320\277\321\200\320\276\320\264\321\203\320\272\321\202\320\276\320\262", nullptr));
         label_3->setText(QCoreApplication::translate("Add_Dialog", "\320\241\321\202\320\276\320\270\320\274\320\276\321\201\321\202\321\214", nullptr));
         label_2->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\276\321\201\321\202\321\203\320\277\320\265\320\275", nullptr));
         label->setText(QCoreApplication::translate("Add_Dialog", "\320\235\320\260\320\267\320\262\320\260\320\275\320\270\320\265", nullptr));
         label_4->setText(QCoreApplication::translate("Add_Dialog", "\320\232\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276", nullptr));
+        get_price->setText(QString());
+        get_status->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\260", nullptr));
         add_prod_Button->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(Add_product), QCoreApplication::translate("Add_Dialog", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214 \320\277\321\200\320\276\320\264\321\203\320\272\321\202", nullptr));
         label_9->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\276\321\201\321\202\321\203\320\277\320\265\320\275", nullptr));
@@ -226,7 +230,10 @@ public:
         label_7->setText(QCoreApplication::translate("Add_Dialog", "\320\232\320\276\320\273\320\270\321\207\320\265\321\201\321\202\320\262\320\276", nullptr));
         label_6->setText(QCoreApplication::translate("Add_Dialog", "\320\235\320\260\320\267\320\262\320\260\320\275\320\270\320\265", nullptr));
         label_10->setText(QCoreApplication::translate("Add_Dialog", "\320\241\321\202\320\276\320\270\320\274\320\276\321\201\321\202\321\214", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214", nullptr));
+        status_field->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\260", nullptr));
+        price_field->setInputMask(QString());
+        veget_field->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\260", nullptr));
+        add_food_btn->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(Add_food), QCoreApplication::translate("Add_Dialog", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214 \320\265\320\264\321\203", nullptr));
     } // retranslateUi
 

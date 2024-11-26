@@ -39,20 +39,10 @@ void MainWindow::on_Save_as_button_triggered()
 }
 
 
-// template<class T>
-// void clone(T& src, T& trg)
-// {
-//     std::stringstream stream;
-//     boost::archive::text_oarchive out(stream);
-//     out << src;
-//     boost::archive::text_iarchive in(stream);
-//     in >> trg;
-// }
 
 void MainWindow::on_Edit_button_triggered()
 {
-    // Dmitrieva_market DM;
-    // clone(ui->scroll_widget->market, DM);
+
 
     std::shared_ptr<Dmitrieva_market> market_ptr = std::make_shared<Dmitrieva_market>(ui->scroll_widget->market);
     Dialog_dmitrieva dlg(market_ptr, this);

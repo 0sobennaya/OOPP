@@ -40,7 +40,8 @@ constexpr auto qt_meta_stringdata_CLASSDialog_dmitrievaENDCLASS = QtMocHelpers::
     "",
     "currentRow",
     "on_delete_button_clicked",
-    "on_add_button_clicked"
+    "on_add_button_clicked",
+    "on_edit_button_clicked"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -53,7 +54,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSDialog_dmitrievaENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   14, // methods
+       4,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -61,12 +62,14 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSDialog_dmitrievaENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   32,    2, 0x08,    1 /* Private */,
-       4,    0,   35,    2, 0x08,    3 /* Private */,
-       5,    0,   36,    2, 0x08,    4 /* Private */,
+       1,    1,   38,    2, 0x08,    1 /* Private */,
+       4,    0,   41,    2, 0x08,    3 /* Private */,
+       5,    0,   42,    2, 0x08,    4 /* Private */,
+       6,    0,   43,    2, 0x08,    5 /* Private */,
 
  // slots: parameters
     QMetaType::Void, QMetaType::Int,    3,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
 
@@ -88,6 +91,8 @@ Q_CONSTINIT const QMetaObject Dialog_dmitrieva::staticMetaObject = { {
         // method 'on_delete_button_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_add_button_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_edit_button_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -102,6 +107,7 @@ void Dialog_dmitrieva::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
         case 0: _t->on_listWidget_currentRowChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         case 1: _t->on_delete_button_clicked(); break;
         case 2: _t->on_add_button_clicked(); break;
+        case 3: _t->on_edit_button_clicked(); break;
         default: ;
         }
     }
@@ -126,13 +132,13 @@ int Dialog_dmitrieva::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 4)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 4;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 4)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 3;
+        _id -= 4;
     }
     return _id;
 }

@@ -1441,6 +1441,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h
  mdp:C:/Users/79106/source/boost_1_86_0/boost/archive/detail/abi_suffix.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/archive/detail/auto_link_archive.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/archive/detail/decl.hpp
+ mdp:C:/Users/79106/source/boost_1_86_0/boost/archive/detail/register_archive.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/assert.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/assert/source_location.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/config.hpp
@@ -1467,6 +1468,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h
  mdp:C:/Users/79106/source/boost_1_86_0/boost/detail/workaround.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/exception/exception.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/limits.hpp
+ mdp:C:/Users/79106/source/boost_1_86_0/boost/mpl/and.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/mpl/apply_wrap.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/mpl/assert.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/mpl/aux_/adl_barrier.hpp
@@ -1542,6 +1544,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h
  mdp:C:/Users/79106/source/boost_1_86_0/boost/mpl/not.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/mpl/not_equal_to.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/mpl/numeric_cast.hpp
+ mdp:C:/Users/79106/source/boost_1_86_0/boost/mpl/print.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/mpl/tag.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/mpl/void.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/mpl/void_fwd.hpp
@@ -1620,8 +1623,10 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h
  mdp:C:/Users/79106/source/boost_1_86_0/boost/preprocessor/variadic/limits/size_64.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/preprocessor/variadic/size.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/access.hpp
+ mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/assume_abstract.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/base_object.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/config.hpp
+ mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/export.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/extended_type_info.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/force_include.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/level.hpp
@@ -1632,6 +1637,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h
  mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/shared_ptr_helper.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/singleton.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/split_free.hpp
+ mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/static_warning.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/strong_typedef.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/throw_exception.hpp
  mdp:C:/Users/79106/source/boost_1_86_0/boost/serialization/tracking.hpp
@@ -1716,6 +1722,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h
  mdp:C:/Users/79106/source/boost_1_86_0/boost/version.hpp
  mdp:C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/Dmitrieva_market.h
  mdp:C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/Dmitrieva_product.h
+ mdp:C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/Food.h
  mdp:C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/q20functional.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/q20memory.h
@@ -1767,6 +1774,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qlatin1stringview.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qline.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qlist.h
+ mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qlocale.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qlogging.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qmalloc.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qmap.h
@@ -1787,6 +1795,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qprocessordetection.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qrect.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qrefcount.h
+ mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qregularexpression.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qscopedpointer.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qscopeguard.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qset.h
@@ -1834,6 +1843,8 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qversiontagging.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qxptype_traits.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtCore/qyieldcpu.h
+ mdp:D:/QT/6.7.3/msvc2022_64/include/QtGui/QDoubleValidator
+ mdp:D:/QT/6.7.3/msvc2022_64/include/QtGui/QIntValidator
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtGui/QPainter
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtGui/qaction.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtGui/qbitmap.h
@@ -1861,6 +1872,7 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/add_dialog.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtGui/qtguiexports.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtGui/qtguiglobal.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtGui/qtransform.h
+ mdp:D:/QT/6.7.3/msvc2022_64/include/QtGui/qvalidator.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtGui/qwindowdefs.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtGui/qwindowdefs_win.h
  mdp:D:/QT/6.7.3/msvc2022_64/include/QtWidgets/QDialog

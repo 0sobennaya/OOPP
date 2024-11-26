@@ -28,6 +28,8 @@ private slots:
 
     void on_add_button_clicked();
 
+    void on_edit_button_clicked();
+
 private:
     Ui::Dialog_dmitrieva *ui;
 };

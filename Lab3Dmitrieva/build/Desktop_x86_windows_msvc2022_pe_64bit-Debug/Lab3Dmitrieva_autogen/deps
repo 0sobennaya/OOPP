@@ -265,6 +265,7 @@ Lab3Dmitrieva_autogen/timestamp: \
 	C:/Users/79106/source/boost_1_86_0/boost/serialization/base_object.hpp \
 	C:/Users/79106/source/boost_1_86_0/boost/serialization/collection_size_type.hpp \
 	C:/Users/79106/source/boost_1_86_0/boost/serialization/config.hpp \
+	C:/Users/79106/source/boost_1_86_0/boost/serialization/export.hpp \
 	C:/Users/79106/source/boost_1_86_0/boost/serialization/extended_type_info.hpp \
 	C:/Users/79106/source/boost_1_86_0/boost/serialization/extended_type_info_typeid.hpp \
 	C:/Users/79106/source/boost_1_86_0/boost/serialization/factory.hpp \
@@ -459,6 +460,7 @@ Lab3Dmitrieva_autogen/timestamp: \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qlatin1stringview.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qline.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qlist.h \
+	D:/QT/6.7.3/msvc2022_64/include/QtCore/qlocale.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qlogging.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qmalloc.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qmap.h \
@@ -479,6 +481,7 @@ Lab3Dmitrieva_autogen/timestamp: \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qprocessordetection.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qrect.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qrefcount.h \
+	D:/QT/6.7.3/msvc2022_64/include/QtCore/qregularexpression.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qscopedpointer.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qscopeguard.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qset.h \
@@ -526,6 +529,8 @@ Lab3Dmitrieva_autogen/timestamp: \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qversiontagging.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qxptype_traits.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtCore/qyieldcpu.h \
+	D:/QT/6.7.3/msvc2022_64/include/QtGui/QDoubleValidator \
+	D:/QT/6.7.3/msvc2022_64/include/QtGui/QIntValidator \
 	D:/QT/6.7.3/msvc2022_64/include/QtGui/QPainter \
 	D:/QT/6.7.3/msvc2022_64/include/QtGui/qaction.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtGui/qbitmap.h \
@@ -553,6 +558,7 @@ Lab3Dmitrieva_autogen/timestamp: \
 	D:/QT/6.7.3/msvc2022_64/include/QtGui/qtguiexports.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtGui/qtguiglobal.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtGui/qtransform.h \
+	D:/QT/6.7.3/msvc2022_64/include/QtGui/qvalidator.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtGui/qwindowdefs.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtGui/qwindowdefs_win.h \
 	D:/QT/6.7.3/msvc2022_64/include/QtWidgets/QDialog \

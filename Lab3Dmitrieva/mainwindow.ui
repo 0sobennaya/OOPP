@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Дмитриева Лаб4</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -32,7 +32,7 @@
          <x>0</x>
          <y>0</y>
          <width>776</width>
-         <height>525</height>
+         <height>550</height>
         </rect>
        </property>
       </widget>
@@ -67,7 +67,6 @@
    <addaction name="menu"/>
    <addaction name="menu_2"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
   <action name="Open_button">
    <property name="text">
     <string>Открыть</string>
