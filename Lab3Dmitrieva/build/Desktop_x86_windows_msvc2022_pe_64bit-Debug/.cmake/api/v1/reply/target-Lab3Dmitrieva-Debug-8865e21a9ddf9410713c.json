@@ -76,13 +76,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 78,
+				"line" : 79,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 61,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
@@ -264,7 +264,7 @@
 			{
 				"command" : 11,
 				"file" : 1,
-				"line" : 56,
+				"line" : 57,
 				"parent" : 0
 			}
 		]
@@ -392,11 +392,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "Lab3Dmitrieva_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Lab3Dmitrieva_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Lab3Dmitrieva_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Lab3Dmitrieva::@6890427a1f51a3e7e1df",
@@ -523,9 +523,9 @@
 				11,
 				13,
 				16,
-				19,
-				20,
-				21
+				24,
+				25,
+				26
 			]
 		},
 		{
@@ -535,14 +535,25 @@
 				4,
 				15,
 				18,
-				22
+				27
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				19,
+				20,
+				21,
+				22,
+				23
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				23
+				28
 			]
 		}
 	],
@@ -654,6 +665,31 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "icons/save.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "icons/edit.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "icons/exit.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "icons/clear.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "icons/open.png",
+			"sourceGroupIndex" : 3
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Lab3Dmitrieva_autogen/include/ui_mainwindow.h",
@@ -681,7 +717,7 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Lab3Dmitrieva_autogen/timestamp.rule",
-			"sourceGroupIndex" : 3
+			"sourceGroupIndex" : 4
 		}
 	],
 	"type" : "EXECUTABLE"

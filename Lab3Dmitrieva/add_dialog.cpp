@@ -4,12 +4,13 @@
 Add_Dialog::Add_Dialog(std::shared_ptr<Dmitrieva_market> market_ptr,QWidget *parent)
     : QDialog(parent)
     , market_ptr(market_ptr)
-    , doubleValidator(0, 10, 2, this)
-    , intValidator (0, 200, this)
-    , calIntValidator (0, 300, this)
+    , doubleValidator(1, 10000, 2, this)
+    , intValidator (0, 100, this)
+    , calIntValidator (0, 800, this)
     , ui(new Ui::Add_Dialog)
 {
     ui->setupUi(this);
+    this->setFixedSize(521,411);
     doubleValidator.setNotation(QDoubleValidator::StandardNotation);
     doubleValidator.setLocale(QLocale::C);
 
@@ -18,12 +19,13 @@ Add_Dialog::Add_Dialog(std::shared_ptr<Dmitrieva_market> market_ptr,QWidget *par
 Add_Dialog::Add_Dialog(std::shared_ptr<Dmitrieva_product> product_ptr,QWidget *parent)
     : QDialog(parent)
     , product_ptr (product_ptr)
-    , doubleValidator(0, 10, 2, this)
-    , intValidator (0, 200, this)
-    , calIntValidator (0, 300, this)
+    , doubleValidator(1, 10000, 2, this)
+    , intValidator (0, 100, this)
+    , calIntValidator (0, 800, this)
     , ui(new Ui::Add_Dialog)
 {
     ui->setupUi(this);
+    this->setFixedSize(521,411);
     _edit = true;
     doubleValidator.setNotation(QDoubleValidator::StandardNotation);
     doubleValidator.setLocale(QLocale::C);
@@ -90,7 +92,9 @@ void Add_Dialog::on_add_prod_Button_clicked()
             market_ptr->get_products_ref().push_back(product);
         }
         done(QDialog::Accepted);
-
+    }
+    else{
+        ui->get_message->setText("Некорректный ввод");
     }
 
 }
@@ -141,6 +145,9 @@ void Add_Dialog::on_add_food_btn_clicked()
 
         }
        done(QDialog::Accepted);
+    }
+    else{
+        ui->message_field->setText("Некорректный ввод");
     }
 
 }

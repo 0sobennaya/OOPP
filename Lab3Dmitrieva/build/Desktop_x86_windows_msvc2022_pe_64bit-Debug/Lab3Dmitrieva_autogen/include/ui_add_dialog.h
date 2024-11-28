@@ -40,6 +40,7 @@ public:
     QLineEdit *get_name;
     QCheckBox *get_status;
     QPushButton *add_prod_Button;
+    QLabel *get_message;
     QWidget *Add_food;
     QWidget *gridLayoutWidget_3;
     QGridLayout *gridLayout_3;
@@ -58,6 +59,7 @@ public:
     QLineEdit *price_field;
     QCheckBox *veget_field;
     QPushButton *add_food_btn;
+    QLabel *message_field;
 
     void setupUi(QDialog *Add_Dialog)
     {
@@ -123,7 +125,10 @@ public:
 
         add_prod_Button = new QPushButton(Add_product);
         add_prod_Button->setObjectName("add_prod_Button");
-        add_prod_Button->setGeometry(QRect(170, 290, 151, 41));
+        add_prod_Button->setGeometry(QRect(175, 290, 150, 40));
+        get_message = new QLabel(Add_product);
+        get_message->setObjectName("get_message");
+        get_message->setGeometry(QRect(175, 260, 150, 20));
         tabWidget->addTab(Add_product, QString());
         Add_food = new QWidget();
         Add_food->setObjectName("Add_food");
@@ -201,8 +206,11 @@ public:
 
         add_food_btn = new QPushButton(Add_food);
         add_food_btn->setObjectName("add_food_btn");
-        add_food_btn->setGeometry(QRect(180, 280, 131, 41));
+        add_food_btn->setGeometry(QRect(175, 290, 150, 40));
         add_food_btn->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
+        message_field = new QLabel(Add_food);
+        message_field->setObjectName("message_field");
+        message_field->setGeometry(QRect(175, 260, 150, 20));
         tabWidget->addTab(Add_food, QString());
 
         retranslateUi(Add_Dialog);
@@ -223,6 +231,7 @@ public:
         get_price->setText(QString());
         get_status->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\260", nullptr));
         add_prod_Button->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214", nullptr));
+        get_message->setText(QString());
         tabWidget->setTabText(tabWidget->indexOf(Add_product), QCoreApplication::translate("Add_Dialog", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214 \320\277\321\200\320\276\320\264\321\203\320\272\321\202", nullptr));
         label_9->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\276\321\201\321\202\321\203\320\277\320\265\320\275", nullptr));
         label_5->setText(QCoreApplication::translate("Add_Dialog", "\320\222\320\265\320\263\320\265\321\202\320\260\321\200\320\270\320\260\320\275\321\201\320\272\320\270\320\271", nullptr));
@@ -234,6 +243,7 @@ public:
         price_field->setInputMask(QString());
         veget_field->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\260", nullptr));
         add_food_btn->setText(QCoreApplication::translate("Add_Dialog", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214", nullptr));
+        message_field->setText(QString());
         tabWidget->setTabText(tabWidget->indexOf(Add_food), QCoreApplication::translate("Add_Dialog", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214 \320\265\320\264\321\203", nullptr));
     } // retranslateUi
 

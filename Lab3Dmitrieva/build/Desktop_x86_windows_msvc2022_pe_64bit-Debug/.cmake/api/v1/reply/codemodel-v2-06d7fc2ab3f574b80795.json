@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-7314b4cc8b34435f02de.json",
+					"jsonFile" : "directory-.-Debug-9477c6b00d7cf6a4ff7e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Lab3Dmitrieva::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Lab3Dmitrieva-Debug-d4522e98c00f6962ba1b.json",
+					"jsonFile" : "target-Lab3Dmitrieva-Debug-8865e21a9ddf9410713c.json",
 					"name" : "Lab3Dmitrieva",
 					"projectIndex" : 0
 				},

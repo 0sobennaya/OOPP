@@ -104,14 +104,27 @@
     <widget class="QPushButton" name="add_prod_Button">
      <property name="geometry">
       <rect>
-       <x>170</x>
+       <x>175</x>
        <y>290</y>
-       <width>151</width>
-       <height>41</height>
+       <width>150</width>
+       <height>40</height>
       </rect>
      </property>
      <property name="text">
       <string>Добавить</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="get_message">
+     <property name="geometry">
+      <rect>
+       <x>175</x>
+       <y>260</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
      </property>
     </widget>
    </widget>
@@ -218,10 +231,10 @@
     <widget class="QPushButton" name="add_food_btn">
      <property name="geometry">
       <rect>
-       <x>180</x>
-       <y>280</y>
-       <width>131</width>
-       <height>41</height>
+       <x>175</x>
+       <y>290</y>
+       <width>150</width>
+       <height>40</height>
       </rect>
      </property>
      <property name="layoutDirection">
@@ -229,6 +242,19 @@
      </property>
      <property name="text">
       <string>Добавить</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="message_field">
+     <property name="geometry">
+      <rect>
+       <x>175</x>
+       <y>260</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
      </property>
     </widget>
    </widget>

@@ -21,9 +21,12 @@ Dialog_dmitrieva::Dialog_dmitrieva(std::shared_ptr<Dmitrieva_market> market_ptr,
 {
 
     ui->setupUi(this);
-    for (auto& product : market_ptr->get_products()){
+    this->setFixedSize(774,442);
+
+    std::for_each(market_ptr->get_products_ref().begin(), market_ptr->get_products_ref().end(), [&](std::shared_ptr<Dmitrieva_product> product){
         ui->listWidget->addItem(product_to_string(product));
-    }
+    });
+
     ui->listWidget->setCurrentRow(0);
 }
 
@@ -81,12 +84,6 @@ void Dialog_dmitrieva::on_listWidget_currentRowChanged(int currentRow)
     }
 }
 
-
-    //ui->write_caloric->setText(QString::number(market_ptr->get_products())[currentRow]))
-
-
-
-
 void Dialog_dmitrieva::on_delete_button_clicked()
 {
     if (ui->listWidget->count() == 0){
@@ -111,17 +108,37 @@ void Dialog_dmitrieva::on_add_button_clicked()
     if(add_wid.exec() == QDialog::Accepted){
         market_ptr = add_wid.market_ptr;
         ui->listWidget->addItem(QString::fromLocal8Bit(market_ptr->get_products()[market_ptr->get_products().size() - 1]->get_name()));
-        //ui->listWidget->addItem(product_to_string(market_ptr->get_products()[market_ptr->get_products().size() - 1]));
+        ui->listWidget->setCurrentRow(ui->listWidget->count() - 1);
     }
 }
 
 
 void Dialog_dmitrieva::on_edit_button_clicked()
 {
+    if (ui->listWidget->count() == 0){
+        QMessageBox msg1;
+        msg1.setText("Нет продуктов для редактирования");
+        msg1.setWindowTitle("Ошибка");
+        msg1.setIcon(QMessageBox::Critical);
+        msg1.exec();
+        return;
+    }
     int currentRow = ui->listWidget->currentRow();
     auto selected = market_ptr->get_products_ref()[currentRow];
     Add_Dialog add_wid (selected ,this);
-    add_wid.exec();
+    if (add_wid.exec() == QDialog::Accepted){
+        selected = add_wid.product_ptr;
+        ui->listWidget->currentItem()->setText(QString::fromLocal8Bit(selected->get_name()));
+        ui->listWidget->clearSelection();
+        if (currentRow ==0){
+            ui->listWidget->setCurrentRow(1);
+            ui->listWidget->setCurrentRow(currentRow);
+        }
+        else{
+            ui->listWidget->setCurrentRow(0);
+            ui->listWidget->setCurrentRow(currentRow);
+        }
+    }
 
 }
 
