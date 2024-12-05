@@ -1,0 +1,14 @@
+# ninja log v6
+28	1245	7549247810158420	Lab3Dmitrieva_autogen/timestamp	b1be6f954d48528c
+28	1245	7549247810158420	Lab3Dmitrieva_autogen/mocs_compilation.cpp	b1be6f954d48528c
+28	1245	7549247810158420	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-RelWithDebInfo/Lab3Dmitrieva_autogen/timestamp	b1be6f954d48528c
+28	1245	7549247810158420	C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-RelWithDebInfo/Lab3Dmitrieva_autogen/mocs_compilation.cpp	b1be6f954d48528c
+1275	5189	7549247811555978	CMakeFiles/Lab3Dmitrieva.dir/Dmitrieva_product.cpp.obj	254bb04fd65217e6
+1280	5734	7549247811606154	CMakeFiles/Lab3Dmitrieva.dir/Food.cpp.obj	807918757fcd5da4
+1270	7588	7549247811460816	CMakeFiles/Lab3Dmitrieva.dir/Dmitrieva_market.cpp.obj	c1dcc0e5592cb7f6
+1261	8029	7549247811399194	CMakeFiles/Lab3Dmitrieva.dir/main.cpp.obj	d41c89eeefe1c523
+1285	8134	7549247811606154	CMakeFiles/Lab3Dmitrieva.dir/dmitrieva_widget.cpp.obj	1ee87ac4d9a50a8b
+1256	8325	7549247811399194	CMakeFiles/Lab3Dmitrieva.dir/Lab3Dmitrieva_autogen/mocs_compilation.cpp.obj	f5043372e600ebd8
+1294	8492	7549247811716256	CMakeFiles/Lab3Dmitrieva.dir/add_dialog.cpp.obj	1f5c3221ff593bc0
+1289	8603	7549247811716256	CMakeFiles/Lab3Dmitrieva.dir/dialog_dmitrieva.cpp.obj	a053f1d72e3b80b9
+1266	8825	7549247811460816	CMakeFiles/Lab3Dmitrieva.dir/mainwindow.cpp.obj	1a5034a2907ac0e1

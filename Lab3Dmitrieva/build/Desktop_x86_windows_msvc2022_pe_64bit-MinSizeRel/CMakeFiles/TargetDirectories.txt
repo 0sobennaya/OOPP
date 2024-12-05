@@ -1,0 +1,8 @@
+C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-MinSizeRel/CMakeFiles/Lab3Dmitrieva.dir
+C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-MinSizeRel/CMakeFiles/edit_cache.dir
+C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-MinSizeRel/CMakeFiles/rebuild_cache.dir
+C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-MinSizeRel/CMakeFiles/list_install_components.dir
+C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-MinSizeRel/CMakeFiles/install.dir
+C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-MinSizeRel/CMakeFiles/install/local.dir
+C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-MinSizeRel/CMakeFiles/Lab3Dmitrieva_autogen_timestamp_deps.dir
+C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-MinSizeRel/CMakeFiles/Lab3Dmitrieva_autogen.dir

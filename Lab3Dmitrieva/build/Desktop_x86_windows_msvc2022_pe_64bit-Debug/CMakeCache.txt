@@ -30,6 +30,9 @@ Boost_SERIALIZATION_LIBRARY_DEBUG:FILEPATH=C:/Users/79106/source/boost_1_86_0/li
 Boost_SERIALIZATION_LIBRARY_RELEASE:FILEPATH=Boost_SERIALIZATION_LIBRARY_RELEASE-NOTFOUND
 
 //Path to a program.
+CMAKE_ADDR2LINE:FILEPATH=C:/msys64/ucrt64/bin/addr2line.exe
+
+//Path to a program.
 CMAKE_AR:FILEPATH=D:/vs/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lib.exe
 
 //No help, variable specified on the command line.
@@ -39,7 +42,7 @@ CMAKE_BUILD_TYPE:STRING=Debug
 CMAKE_COLOR_DIAGNOSTICS:BOOL=1
 
 //CXX compiler
-CMAKE_CXX_COMPILER:STRING=D:/vs/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/cl.exe
+CMAKE_CXX_COMPILER:STRING=D:/vs/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/cl.exe
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc
@@ -65,9 +68,12 @@ CMAKE_CXX_OUTPUT_EXTENSION:STRING=.obj
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
 
 //No help, variable specified on the command line.
-CMAKE_C_COMPILER:FILEPATH=D:/vs/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/cl.exe
+CMAKE_C_COMPILER:FILEPATH=D:/vs/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/cl.exe
 
 CMAKE_C_OUTPUT_EXTENSION:STRING=
+
+//Path to a program.
+CMAKE_DLLTOOL:FILEPATH=C:/msys64/ucrt64/bin/dlltool.exe
 
 //Flags used by the linker during all build types.
 CMAKE_EXE_LINKER_FLAGS:STRING=/machine:x64
@@ -144,8 +150,8 @@ CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
 //Read-only single-machine data (etc)
 CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 
-//Path to a program.
-CMAKE_LINKER:FILEPATH=D:/vs/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/link.exe
+//No help, variable specified on the command line.
+CMAKE_LINKER:FILEPATH=D:/vs/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
 
 //Program used to build from build.ninja files.
 CMAKE_MAKE_PROGRAM:FILEPATH=D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe
@@ -172,6 +178,15 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
 //Path to a program.
 CMAKE_MT:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/mt.exe
+
+//Path to a program.
+CMAKE_NM:FILEPATH=C:/msys64/ucrt64/bin/nm.exe
+
+//Path to a program.
+CMAKE_OBJCOPY:FILEPATH=C:/msys64/ucrt64/bin/objcopy.exe
+
+//Path to a program.
+CMAKE_OBJDUMP:FILEPATH=C:/msys64/ucrt64/bin/objdump.exe
 
 //No help, variable specified on the command line.
 CMAKE_PREFIX_PATH:PATH=D:/QT/6.7.3/msvc2022_64
@@ -221,6 +236,9 @@ CMAKE_RC_FLAGS_RELEASE:STRING=
 //Flags for Windows Resource Compiler during RELWITHDEBINFO builds.
 CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
 
+//Path to a program.
+CMAKE_READELF:FILEPATH=C:/msys64/ucrt64/bin/readelf.exe
+
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
 CMAKE_SHARED_LINKER_FLAGS:STRING=/machine:x64
@@ -267,6 +285,12 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during the creation of static libraries
 // during RELWITHDEBINFO builds.
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
+
+//Path to a program.
+CMAKE_STRIP:FILEPATH=C:/msys64/ucrt64/bin/strip.exe
+
+//Path to a program.
+CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -356,6 +380,8 @@ Boost_LIBRARY_DIR_DEBUG-ADVANCED:INTERNAL=1
 Boost_SERIALIZATION_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SERIALIZATION_LIBRARY_RELEASE
 Boost_SERIALIZATION_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_ADDR2LINE
+CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -386,6 +412,8 @@ CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_STANDARD_LIBRARIES
 CMAKE_CXX_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_DLLTOOL
+CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
 //Path to cache edit program executable.
 CMAKE_EDIT_COMMAND:INTERNAL=D:/QT/Tools/CMake_64/bin/cmake-gui.exe
 //Executable file format
@@ -465,8 +493,14 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_NM
+CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
 CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+//ADVANCED property for variable: CMAKE_OBJCOPY
+CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_OBJDUMP
+CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -484,6 +518,8 @@ CMAKE_RC_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_RC_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_FLAGS_RELWITHDEBINFO
 CMAKE_RC_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_READELF
+CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
 CMAKE_ROOT:INTERNAL=D:/QT/Tools/CMake_64/share/cmake-3.29
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
@@ -510,6 +546,10 @@ CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_STRIP
+CMAKE_STRIP-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_TAPI
+CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Boost

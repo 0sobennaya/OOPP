@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-9477c6b00d7cf6a4ff7e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Lab3Dmitrieva",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab3Dmitrieva::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab3Dmitrieva-Debug-755a66923ecaca7c5995.json",
+					"name" : "Lab3Dmitrieva",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab3Dmitrieva_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab3Dmitrieva_autogen-Debug-c7e91900d73ee57ac65e.json",
+					"name" : "Lab3Dmitrieva_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab3Dmitrieva_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab3Dmitrieva_autogen_timestamp_deps-Debug-e0dd1600787da0a2a243.json",
+					"name" : "Lab3Dmitrieva_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug",
+		"source" : "C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

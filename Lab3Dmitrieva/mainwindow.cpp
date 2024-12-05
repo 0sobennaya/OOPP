@@ -8,11 +8,11 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->Open_button->setIcon(QIcon("C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/icons/open.png"));
-    ui->Exit_button->setIcon(QIcon("C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/icons/exit.png"));
-    ui->Save_as_button->setIcon(QIcon("C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/icons/save.png"));
-    ui->Edit_button->setIcon(QIcon("C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/icons/edit.png"));
-    ui->Clear_button->setIcon(QIcon("C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/icons/clear.png"));
+    // ui->Open_button->setIcon(QIcon("C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/icons/open.png"));
+    // ui->Exit_button->setIcon(QIcon("C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/icons/exit.png"));
+    // ui->Save_as_button->setIcon(QIcon("C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/icons/save.png"));
+    // ui->Edit_button->setIcon(QIcon("C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/icons/edit.png"));
+    // ui->Clear_button->setIcon(QIcon("C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/icons/clear.png"));
 
 }
 

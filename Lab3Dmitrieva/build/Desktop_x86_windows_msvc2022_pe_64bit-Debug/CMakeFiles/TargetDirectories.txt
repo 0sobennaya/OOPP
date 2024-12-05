@@ -4,5 +4,6 @@ C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc202
 C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/list_install_components.dir
 C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/install.dir
 C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/install/local.dir
+C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/install/strip.dir
 C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/Lab3Dmitrieva_autogen_timestamp_deps.dir
 C:/Users/79106/source/repos/OOPP/Lab3Dmitrieva/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/CMakeFiles/Lab3Dmitrieva_autogen.dir

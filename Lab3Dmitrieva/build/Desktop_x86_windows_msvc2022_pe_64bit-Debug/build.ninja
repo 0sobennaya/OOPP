@@ -206,6 +206,18 @@ build install\local: phony CMakeFiles\install\local.util
 
 
 #############################################
+# Utility command for install/strip
+
+build CMakeFiles\install\strip.util: CUSTOM_COMMAND all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\79106\source\repos\OOPP\Lab3Dmitrieva\build\Desktop_x86_windows_msvc2022_pe_64bit-Debug && D:\QT\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install\strip: phony CMakeFiles\install\strip.util
+
+
+#############################################
 # Utility command for Lab3Dmitrieva_autogen_timestamp_deps
 
 build Lab3Dmitrieva_autogen_timestamp_deps: phony
