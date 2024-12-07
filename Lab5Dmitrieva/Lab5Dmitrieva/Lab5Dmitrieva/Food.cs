@@ -16,9 +16,9 @@ namespace Lab5Dmitrieva
         {
             base.AddProduct();
             Console.WriteLine("Введите калорийность от 1 до 800:");
-            CalricContent = int.Parse(Console.ReadLine());
+            CalricContent = Utilites.CheckEnter<int>(1, 800);
             Console.WriteLine("Этот продукт вегетарианский? (1 - да, 0 - нет):");
-            IsVegetarian = bool.Parse(Console.ReadLine());
+            IsVegetarian = Convert.ToBoolean(Utilites.CheckEnter<int>(0,1));
         }
         public override void Print()
         {

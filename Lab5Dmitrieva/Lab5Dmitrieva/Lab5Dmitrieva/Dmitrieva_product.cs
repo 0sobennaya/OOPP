@@ -22,11 +22,11 @@ namespace Lab5Dmitrieva
                 Name = Console.ReadLine();
             }
             Console.WriteLine("Введите стоимость от 1.0 до 10 000.0:");
-            Price = float.Parse(Console.ReadLine());
+            Price = Utilites.CheckEnter<float>((float)1.0, (float)10000.0);
             Console.WriteLine("Введите количество от 0 до 100:");
-            Amount = int.Parse(Console.ReadLine());
+            Amount = Utilites.CheckEnter<int>(0, 100);
             Console.WriteLine("Доступен для заказа? (1 - да, 0 - нет):");
-            IsActive = Convert.ToBoolean(Console.ReadLine());   
+            IsActive = Convert.ToBoolean(Utilites.CheckEnter<int>(0, 1)); 
         }
         public virtual void Print()
         {

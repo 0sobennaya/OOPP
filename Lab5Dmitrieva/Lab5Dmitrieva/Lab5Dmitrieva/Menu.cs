@@ -27,7 +27,7 @@ namespace Lab5Dmitrieva
             do
             {
                 PrintMenu();
-                choice = int.Parse(Console.ReadLine());
+                choice = Utilites.CheckEnter<int>(0,6);
 
                 switch (choice)
                 {
@@ -72,7 +72,7 @@ namespace Lab5Dmitrieva
                         {
                             Console.WriteLine("При загрузке вы потеряете текущий список товаров. Продолжить? (1 - да, 0 - нет)");
                             bool ok;
-                            ok = bool.Parse(Console.ReadLine());
+                            ok = Convert.ToBoolean(Utilites.CheckEnter<int>(0, 1));
                             if (ok)
                             {
                                 market.Load();
@@ -83,6 +83,7 @@ namespace Lab5Dmitrieva
                     case 6:
                         {
                             market.DeleteData();
+                            Console.WriteLine("Список товаров очищен");
                             break;
                         }
 
