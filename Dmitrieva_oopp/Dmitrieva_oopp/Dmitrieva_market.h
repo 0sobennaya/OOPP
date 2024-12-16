@@ -7,6 +7,11 @@
 class Dmitrieva_market {
 private:
 	std::vector <std::shared_ptr<Dmitrieva_product>> _products;
+	friend class boost::serialization::access;
+	template<class Archive>
+	void serialize(Archive& ar, const unsigned int version) {
+		ar& _products;
+	}
 	
 public:
 	void add_product(std::shared_ptr<Dmitrieva_product> product);

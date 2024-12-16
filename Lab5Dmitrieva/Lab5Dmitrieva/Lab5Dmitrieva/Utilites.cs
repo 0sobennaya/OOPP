@@ -9,7 +9,7 @@ namespace Lab5Dmitrieva
 {
     static internal class Utilites
     {
-        private static bool CorrectInputType<T>(string input, out T result) where T : IComparable<T>
+        private static bool CorrectInputType<T>(string input, out T result)
         {
             try
             {
